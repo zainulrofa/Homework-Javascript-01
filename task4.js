@@ -24,6 +24,6 @@ let addData = {
 const finalData = {...data, ...addData}
 console.log(finalData)
 
-// task 4B
+// task 4
 const { street, city } = data.address
 console.log(street, city)
