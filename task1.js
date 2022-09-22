@@ -1,7 +1,7 @@
 const biodata = {
     name: "Zainul Muhammad Rofa",
     age: 24,
-    hobbies: ["Drawing", "Music", "Reading"],
+    hobbies: ["Drawing", "Playing Guitar", "Reading"],
     IsMarried: false,
     schoolList: [
         {
