@@ -1,5 +1,5 @@
-function printSegitiga(angka){
-  if (typeof angka !== "number") return "Data Harus Number"
+function printSegitiga(num){
+  if (typeof num !== "number") return "Data Harus Number"
   let printHingga = num
   for(x = num; x >= 1; x--){
     let print = ""
