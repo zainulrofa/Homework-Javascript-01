@@ -5,10 +5,13 @@ const ipa = 95
 let jumlahNilai = (mtk + bind + bing + ipa)
 rataNilai = jumlahNilai/4 
 
-console.log ("Rata-Rata:"+rataNilai)
+function nilaiAkhir(){
+    if (mtk != "" && bind != "" && bing != "" && ipa != "")
+    if (rataNilai >= 90 && rataNilai < 100) { return "Grade: A" } else
+    if (rataNilai >= 80 && rataNilai <= 89) { return "Grade: B" } else
+    if (rataNilai >= 70 && rataNilai <= 79) { return "Grade: C" } else
+    if (rataNilai >= 60 && rataNilai <= 69) { return "Grade: B" } else { return "Grade E" }
+}
 
-59 >= rataNilai > 0 ? console.log ("Grade:E"):
-69 >= rataNilai >= 60 ? console.log ("Grade:D"):
-79 >= rataNilai >= 70 ? console.log ("Grade:C"):
-89 >= rataNilai >= 80 ? console.log ("Grade:B"): 
-console.log ("Grade:A")
+console.log("Rata-Rata: "+rataNilai)
+console.log(nilaiAkhir())
